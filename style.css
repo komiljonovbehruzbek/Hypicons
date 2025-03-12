@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.hypicons{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.navbar{
+    width: 100vw;
+    height: 50px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.logo{
+    width: auto;
+    height: auto;
+}
+
+.logo h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.nav_pages{
+    width: auto;
+    height: auto;
+}
+
+.nav_pages ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav_pages ul li{
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+}
+
+.nav_button{
+    width: auto;
+    height: auto;
+}
+
+.nav_button button{
+    width: auto;
+    height: auto;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 24px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: blueviolet;
+}
+
+.banner1{
+    width: 100vw;
+    height: auto;
+    background: url(./media/background1.jpg) no-repeat center/cover;
+    padding: 100px 60px;
+}
+
+.banner1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.banner1 h1{
+    width: 45vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.banner1 button{
+    width: auto;
+    height: auto;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 24px;
+    background: blueviolet;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px 0;
+}
+
+.b1_pages{
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.b1_pages ul{
+    list-style: none;
+}
+
+.b1_pages ul li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    color: lightgray;
+    line-height: 25px;
+}
+
+.b1_pages ul b{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.banner2{
+    width: 100vw;
+    height: auto;
+    background: black;
+    display: flex;
+}
+
+.b2_texts{
+    width: 50vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b2_text{
+    width: auto;
+    height: auto;
+    padding: 100px 60px;
+}
+
+.b2_text h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+.b2_text p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+    margin: 30px 0;
+    margin-left: 20px;
+}
+
+.b2_text button{
+    width: auto;
+    height: auto;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 24px;
+    background: blueviolet;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.b2_img{
+    width: 50vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 60px;
+}
+
+.b2_img img{
+    width: auto;
+    height: 500px;
+}
+
+.banner3{
+    width: 100vw;
+    height: auto;
+    background: black;
+    padding: 100px 0;
+}
+
+.banner3 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.b3_img{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b3_img img{
+    width: 70vw;
+    height: auto;
+}
+
+.banner4{
+    width: 100vw;
+    height: auto;
+    background: black;
+    padding: 100px 0;
+}
+
+.banner4 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.b4_img{
+    width: 80vw;
+    height: auto;
+    background: lightgray;
+    border-radius: 36px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.b4_img img{
+    width: 70vw;
+    height: auto;
+    background: none;
+}
+
+.b4_pages{
+    width: 80vw;
+    height: auto;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.b4_pages ul{
+    list-style: none;
+}
+
+.b4_pages ul li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+}
+
+.b4_pages ul b{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.b4_pages ul:nth-child(3) b{
+    margin-left: 30px;
+}
+
+.banner5{
+    width: 100vw;
+    height: auto;
+    background: black;
+    display: flex;
+}
+
+.b5_img{
+    width: 50vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.b5_img h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 400px;
+    color: blueviolet;
+}
+
+.b5_texts{
+    width: 50vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.b5_text{
+    width: auto;
+    height: auto;
+    padding: 100px 0;
+}
+
+.b5_text h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+.b5_text p{
+    width: 30vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+    margin: 20px 0;
+    margin-top: 30px;
+}
+
+.b5_text button{
+    width: auto;
+    height: auto;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 24px;
+    background: blueviolet;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner6{
+    width: 100vw;
+    height: auto;
+    background: url(media/background2.jpg) no-repeat center/cover;
+    padding: 50px 0;
+}
+
+.banner6 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.banner6 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: lightgray;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.banner6 button{
+    width: auto;
+    height: auto;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 24px;
+    background: blueviolet;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    margin: auto;
+}
+
+footer{
+    width: 100vw;
+    height: auto;
+    background: black;
+    padding: 50px 0;
+}
+
+footer h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+footer p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin: 30px 0;
+}
+
+footer p span{
+    color: blueviolet;
+}
+
+footer p:last-child{
+    margin: 0;
+}
